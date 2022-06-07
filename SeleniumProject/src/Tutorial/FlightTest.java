@@ -32,10 +32,11 @@ Thread.sleep(2000);
 //driver.findElement(By.xpath("//div[@class='css-526oso']")).click();
 //driver.findElement(By.xpath("//div[@class='csst9qs2f']")).click();
 //Thread.sleep(2000);
-driver.findElement(By.cssSelector("input[readonly type='text']")).click();
+driver.findElement(By.className("css-526oso")).click();
+//driver.findElement(By.cssSelector("input[readonly type='text']")).click();
 Thread.sleep(2000);
-driver.findElement(By.cssSelector("input[type='text']")).click();
-Thread.sleep(2000);
+//driver.findElement(By.cssSelector("input[type='text']")).click();
+//Thread.sleep(2000);
 
 
 	
